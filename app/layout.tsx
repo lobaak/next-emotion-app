@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import ThemeProvider from "../providers/ThemeProvider";
+import EmotionRootStyleRegistry from "@/providers/EmotionRootStyleRegistry";
+import ThemeProvider from "@/providers/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "",
@@ -18,7 +19,9 @@ export default function RootLayout({
         <title>Next.js Emotion App</title>
       </head>
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <EmotionRootStyleRegistry>
+          <ThemeProvider>{children}</ThemeProvider>
+        </EmotionRootStyleRegistry>
       </body>
     </html>
   );
