@@ -1,7 +1,11 @@
+import { Box } from "./components/Box/Box";
+
 export default function Home() {
   return (
     <div>
-      <main></main>
+      <main>
+        <Box />
+      </main>
     </div>
   );
 }
