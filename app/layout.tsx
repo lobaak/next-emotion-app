@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import EmotionRootStyleRegistry from "@/providers/EmotionRootStyleRegistry";
-import ThemeProvider from "@/providers/ThemeProvider";
+import EmotionRootStyleRegistry from "@/app/providers/EmotionRootStyleRegistry";
+import ThemeProvider from "@/app/providers/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "",
-  description: "",
+  description: "xxxx",
 };
 
 export default function RootLayout({

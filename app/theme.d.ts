@@ -2,9 +2,6 @@ import "@emotion/react";
 
 import { Theme as ThemeType } from "@tal-gel/theming-plugin-tal2.0";
 
-// Export all components
-export * from "./index";
-
 declare module "@emotion/react" {
   export interface Theme {
     fonts: ThemeType["fonts"];

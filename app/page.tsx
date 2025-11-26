@@ -2,7 +2,7 @@
 
 "use client";
 
-import { Box } from "@/components/Box/Box";
+import { Box } from "@/app/components/Box/Box";
 // import { css } from "@emotion/react";
 
 // const styles = css`
