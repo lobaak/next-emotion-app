@@ -1,6 +1,4 @@
-"use client";
-
-import styled from "@/app/utils/styled";
+import styled from "@/utils/styled";
 
 const Test = styled("div")`
   width: 200px;
