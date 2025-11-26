@@ -1,11 +1,14 @@
 import styled from "@/utils/styled";
 
-const Test = styled("div")`
+const StyledDiv = styled("div")`
   width: 200px;
   height: 200px;
-  background-color: lightblue;
+  font-family: ${({ theme }) => {
+    console.log(theme);
+    return theme.bodyFont;
+  }};
 `;
 
 export const Box = () => {
-  return <Test>Box</Test>;
+  return <StyledDiv>xxxxxxx</StyledDiv>;
 };

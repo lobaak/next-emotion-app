@@ -1,4 +1,15 @@
-import { Box } from "../components/Box/Box";
+/** @jsxImportSource @emotion/react */
+
+"use client";
+
+import { Box } from "@/components/Box/Box";
+// import { css } from "@emotion/react";
+
+// const styles = css`
+//   width: 200px;
+//   height: 200px;
+//   background-color: lightcoral;
+// `;
 
 export default function Home() {
   return (
