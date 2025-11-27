@@ -3,6 +3,7 @@
 "use client";
 
 import { Box } from "@/app/components/Box/Box";
+import { Button } from "./components/Button/Button";
 // import { css } from "@emotion/react";
 
 // const styles = css`
@@ -15,6 +16,7 @@ export default function Home() {
   return (
     <div>
       <main>
+        <Button />
         <Box />
       </main>
     </div>

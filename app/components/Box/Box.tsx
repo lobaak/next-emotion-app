@@ -8,6 +8,9 @@ const StyledDiv = styled("div")`
   font-family: ${({ theme }) => theme.bodyFont};
 `;
 
+const environment = typeof window !== "undefined" ? "client" : "server";
+
 export const Box = () => {
+  console.log("Box rendered on:", environment);
   return <StyledDiv>Some box</StyledDiv>;
 };
